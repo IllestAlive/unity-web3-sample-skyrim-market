@@ -30,17 +30,17 @@ namespace Web3_Skyrim
             {
                 case ShopType.Exchange:
                     title.text = "Exchange";
-                    description.text = "Here you can trade Crystals (in-game currency) for Septim (ERC-20)";
+                    description.text = "Here you can trade $RAID (in-game currency) for SKAL (ERC-20)";
                     break;
             
                 case ShopType.Outfit:
                     title.text = "Outfit Shop";
-                    description.text = "Here you can buy NFT Outfits with Septim (ERC-20)";
+                    description.text = "Here you can buy NFT Outfits with SKAL (ERC-20)";
                     break;
             
                 case ShopType.Item:
                     title.text = "Item Shop";
-                    description.text = "Here you can buy basic items with Crystals (in-game currency)";
+                    description.text = "Here you can buy basic items with $RAID (in-game currency)";
                     break;
             
                 case ShopType.None:

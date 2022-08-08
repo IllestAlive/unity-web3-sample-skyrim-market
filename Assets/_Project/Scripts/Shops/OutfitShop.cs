@@ -17,7 +17,7 @@ namespace Web3_Skyrim
         [Header("Inventory")]
         public ShopInventory shopInventory;
 
-        [Header("Septim Balance")] 
+        [Header("$SKAL Balance")] 
         [SerializeField] private TextMeshProUGUI septimBalanceLabel;
         
         private ShopItem _currentSelectedItem;
@@ -154,7 +154,7 @@ namespace Web3_Skyrim
                 {
                     septimBalanceLabel.text = token.Balance;
                     _currentSeptimBalance = int.Parse(token.Balance); // We assume token.Balance is a number string :)
-                    Debug.Log($"We own {token.Balance} Septim (ST)");
+                    Debug.Log($"We own {token.Balance} SKAL (SK)");
                 }
             }
         }

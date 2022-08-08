@@ -102,7 +102,7 @@ namespace Web3_Skyrim
                 {
                     if (_crystalInputAmount > _currentCrystalBalance)
                     {
-                        statusLabel.text = $"You don't have enough CR";
+                        statusLabel.text = $"You don't have enough $RAID";
                         tradeButton.interactable = false;                        
                         return;
                     }
@@ -119,7 +119,7 @@ namespace Web3_Skyrim
                 }
                 else
                 {
-                    statusLabel.text = $"Minimum amount is {MinimumInput} CR";
+                    statusLabel.text = $"Minimum amount is {MinimumInput} $RAID";
                     septimLabel.text = 0.ToString();
                     tradeButton.interactable = false;
                 }
